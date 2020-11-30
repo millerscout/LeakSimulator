@@ -11,6 +11,7 @@ procdump -w w3wp -mm -ma -m 1000 -n 2
 ```
 
 [windows sdk](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
+[wdk](https://docs.microsoft.com/pt-br/windows-hardware/drivers/download-the-wdk)
 
 [windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) -  [early guide for windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-managed-code)
 
