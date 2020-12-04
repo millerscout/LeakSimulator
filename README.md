@@ -2,6 +2,15 @@
 
 A Project to generate memory leak.
 
+# how use it?
+
+Configure this project to an iis or just run, on my environment i've configured to use procdump binded to the pool
+
+and request to the url:
+```http://localhost:2121/home/leak/21```
+this leak will generate around 2GBs and stops after that.
+
+right below there's a guide to identift the leak's origin.
 
 # Required
 
