@@ -34,7 +34,7 @@ procdump -w w3wp -mm -ma -m 1000 -n 2
 WIP:
 forked list: https://gist.github.com/millerscout/cebceb9ff389dc6e47af911df3a3f93a
 ``` 
-```!sym noisy
+!sym noisy
 .sympath srv*c:\symbols*http://msdl.microsoft.com/download/symbols
 .load C:\tools\procdump\Psscor4\x86\x86\psscor4.dll --x86
 .load C:\tools\procdump\Psscor4\amd64\amd64\psscor4 --x64
