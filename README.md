@@ -53,6 +53,7 @@ get the greater address available and run
 
 
 -----other commands:
+
 ```!heap -l```
 
 ```!heap -stat -h 00000193c1bc0000```
@@ -60,7 +61,3 @@ get the greater address available and run
 ```!heap -flt s 4b0000 ```
 
 ```!dumpheap -stat ```
-
-
-
-```
