@@ -42,7 +42,11 @@ get overview from addresses
 
 Run the command, the last type has the most size in memory.
 ```!dumpheap ```
-
+<p align="center">
+        <a href ="https://github.com/millerscout/LeakSimulator/raw/master/images/heapstat.png">
+         <img src="https://github.com/millerscout/LeakSimulator/raw/master/images/heapstat.png" alt="Buy me a coffee" style="max-width:100%;">
+     </a>
+</p>
 Run the type to get the addresses, the first column is the address.
 order: Address               MT     Size
 ```!DumpHeap -type {type}```
@@ -51,6 +55,11 @@ get the greater address available and run
 
 ```!gcroot -all {address}```
 
+<p align="center">
+        <a href ="https://github.com/millerscout/LeakSimulator/raw/master/images/gcroot.png">
+         <img src="https://github.com/millerscout/LeakSimulator/raw/master/images/gcroot.png" alt="Buy me a coffee" style="max-width:100%;">
+     </a>
+</p>
 
 -----other commands:
 
@@ -61,3 +70,11 @@ get the greater address available and run
 ```!heap -flt s 4b0000 ```
 
 ```!dumpheap -stat ```
+
+
+
+<p align="center">
+        <a href ="https://www.buymeacoffee.com/gR79MHU">
+         <img src="https://github.com/millerscout/Kenshi-Mod-Manager/raw/master/Donation.png" alt="Buy me a coffee" style="max-width:100%;">
+     </a>
+</p>
