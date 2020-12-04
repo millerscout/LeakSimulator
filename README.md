@@ -87,3 +87,14 @@ get the greater address available and run
          <img src="https://github.com/millerscout/Kenshi-Mod-Manager/raw/master/Donation.png" alt="Buy me a coffee" style="max-width:100%;">
      </a>
 </p>
+
+# References:
+
+https://www.linkedin.com/pulse/resolving-memory-leaks-using-windbg-jon-krupa
+https://stackoverflow.com/questions/33738306/heap-stat-h-doesnt-show-allocations
+https://community.osr.com/discussion/286573/detecting-memory-leaks-with-windbg
+https://gist.github.com/nickfloyd/a332462f85ac32372c74
+https://www.sysnative.com/forums/threads/which-windbg-command-to-locate-heap-block-number-or-address.29311/
+https://dlaa.me/blog/post/9471347
+https://stackoverflow.com/questions/55240025/using-windbg-to-find-memory-leak-issue-in-asp-net-application
+http://thinkexception.blogspot.com/2010/06/tool-to-bompare-two-windbg-dumpheap.html
