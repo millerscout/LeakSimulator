@@ -98,3 +98,4 @@ https://www.sysnative.com/forums/threads/which-windbg-command-to-locate-heap-blo
 https://dlaa.me/blog/post/9471347
 https://stackoverflow.com/questions/55240025/using-windbg-to-find-memory-leak-issue-in-asp-net-application
 http://thinkexception.blogspot.com/2010/06/tool-to-bompare-two-windbg-dumpheap.html
+https://github.com/millerscout/book-of-reference/blob/master/CSharp.md
