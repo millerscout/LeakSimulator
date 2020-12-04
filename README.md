@@ -15,6 +15,7 @@ procdump -w w3wp -mm -ma -m 1000 -n 2
 ## using windbg
 [windows sdk](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
 [wdk](https://docs.microsoft.com/pt-br/windows-hardware/drivers/download-the-wdk)
+[sos + documentation](https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension) 
 
 [windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) -  [early guide for windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-managed-code)
 
@@ -25,8 +26,14 @@ forked list: https://gist.github.com/millerscout/cebceb9ff389dc6e47af911df3a3f93
 ``` 
 !sym noisy
 .sympath srv*c:\symbols*http://msdl.microsoft.com/download/symbols
+.load C:\tools\procdump\Psscor4\x86\x86\psscor4.dll --x86
+.load C:\tools\procdump\Psscor4\amd64\amd64\psscor4 --x64
+.load C:\Windows\Microsoft.NET\Framework\v4.0.30319\SOS.dll   --32x
+.load C:\Windows\Microsoft.NET\Framework64\v4.0.30319\sos.dll --64x
+.loadby sos clr --not working
+
 .reload
-.cordll -ve -u -l
-!analyse -v
+
+!dumpheap
 
 ```
