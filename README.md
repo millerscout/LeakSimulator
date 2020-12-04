@@ -27,6 +27,7 @@ procdump -w w3wp -mm -ma -m 1000 -n 2
 [sos + documentation](https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension) 
 
 [windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) -  [early guide for windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-managed-code)
+[Psscor4, windbg's extension](microsoft.com/en-us/download/details.aspx?id=21255)
 
 [caching](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path)
 
@@ -89,6 +90,8 @@ get the greater address available and run
 </p>
 
 # References:
+
+https://stackoverflow.com/questions/23811168/where-can-i-find-net-4-0-sos-dll
 
 https://www.linkedin.com/pulse/resolving-memory-leaks-using-windbg-jon-krupa
 
